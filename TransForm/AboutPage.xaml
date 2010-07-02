@@ -1,0 +1,10 @@
+﻿<Window x:Class="TransForm.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="About TransForm" Height="300" Width="300">
+    <Grid>
+        <Label Margin="12,12,87,0" Height="32" VerticalAlignment="Top" FontSize="15" FontWeight="Bold">About TransForm</Label>
+        <TextBlock Text="Designed and developed by Joe Basirico. No warrantee is expressed or implied, you assume all responsibility and liability when you use this software. This is truly alpha quality software. If you find bugs or would like to request new features please e-mail me at jbasirico@securityinnovation.com. Copyright 2009 - Security Innovation. www.securityinnovation.com" Margin="12,40,31,66" TextWrapping="WrapWithOverflow"></TextBlock>
+        <Label Margin="0,0,12,12" Height="23" VerticalAlignment="Bottom" FontSize="12" FontWeight="Bold" HorizontalAlignment="Right" Width="89">Version 0.7.87</Label>
+    </Grid>
+</Window>
