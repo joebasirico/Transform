@@ -41,8 +41,7 @@
             <ComboBoxItem>Hash - SHA384</ComboBoxItem>
             <ComboBoxItem>Hash - SHA512</ComboBoxItem>
         </ComboBox>
-        <ProgressBar Height="10" Margin="12,262,12,0" Name="progressBar1" VerticalAlignment="Top" />
-        <Menu Height="22" Name="menu1" BorderBrush="Gray" BorderThickness="1" VerticalAlignment="Top">
+		<Menu Height="22" Name="menu1" BorderBrush="Gray" BorderThickness="1" VerticalAlignment="Top">
             <MenuItem Header="_File">
                 <MenuItem Header="Open" Click="OpenFile"/>
                 <Separator></Separator>
@@ -80,6 +79,6 @@
                 <MenuItem Header="About" Click="ShowAbout" />
             </MenuItem>
         </Menu>
-        <CheckBox Margin="225,278,388,268" Name="encodeLinebreaks" IsChecked="True">Encode Linebreaks</CheckBox>
-    </Grid>
+        <CheckBox Margin="225,281,388,265" Name="encodeLinebreaks" IsChecked="True">Encode Linebreaks</CheckBox>
+	</Grid>
 </Window>
